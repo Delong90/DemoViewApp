@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.customViewOne.setPeriod(PERIOD)
         binding.customViewTwo.setPeriod(PERIOD)
-
+1
         // Never use GlobalScope for real projects !!!
         GlobalScope.launch {
             while (current < PERIOD * REPEAT) {
